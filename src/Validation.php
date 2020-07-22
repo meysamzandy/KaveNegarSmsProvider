@@ -2,12 +2,9 @@
 
 namespace MeysamZnd\KaveNegarSmsProvider;
 
-use GuzzleHttp\Client;
 use GuzzleHttp\Exception\GuzzleException;
-use http\Env\Url;
-use Illuminate\Support\Facades\Config;
-use MeysamZnd\KaveNegarSmsProvider\Interfaces\Sms;
 use MeysamZnd\KaveNegarSmsProvider\Helper\Reusable;
+use MeysamZnd\KaveNegarSmsProvider\Interfaces\Sms;
 
 class Validation implements Sms
 {
@@ -19,9 +16,8 @@ class Validation implements Sms
      */
     public function send(string $akiKey, array $data): array
     {
-
         $url = ($akiKey).'/verify/lookup.json';
-        return (new Reusable())->request($url, $data);
 
+        return (new Reusable())->request($url, $data);
     }
 }

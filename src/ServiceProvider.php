@@ -4,7 +4,7 @@ namespace MeysamZnd\KaveNegarSmsProvider;
 
 class ServiceProvider extends \Illuminate\Support\ServiceProvider
 {
-    const CONFIG_PATH = __DIR__ . '/../config/kave-negar-sms-provider.php';
+    const CONFIG_PATH = __DIR__.'/../config/kave-negar-sms-provider.php';
 
     public function boot()
     {

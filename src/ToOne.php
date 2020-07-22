@@ -8,7 +8,6 @@ use MeysamZnd\KaveNegarSmsProvider\Interfaces\Sms;
 
 class ToOne implements Sms
 {
-
     /**
      * @param string $akiKey
      * @param array $data
@@ -18,8 +17,7 @@ class ToOne implements Sms
     public function send(string $akiKey, array $data): array
     {
         $url = ($akiKey).'/sms/send.json';
+
         return (new Reusable())->request($url, $data);
     }
-
-
 }
