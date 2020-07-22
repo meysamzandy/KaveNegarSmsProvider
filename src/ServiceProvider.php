@@ -21,7 +21,7 @@ class ServiceProvider extends \Illuminate\Support\ServiceProvider
         );
 
         $this->app->bind('kave-negar-sms-provider', function () {
-            return new KaveNegarSmsProvider();
+            return new KaveNegarSmsProvider(new ToOne());
         });
     }
 }
