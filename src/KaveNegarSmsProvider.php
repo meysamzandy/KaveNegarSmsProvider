@@ -6,7 +6,6 @@ use MeysamZnd\KaveNegarSmsProvider\Interfaces\Sms;
 
 class KaveNegarSmsProvider
 {
-
     protected $send;
 
     /**

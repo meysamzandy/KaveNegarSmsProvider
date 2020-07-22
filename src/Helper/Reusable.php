@@ -15,7 +15,7 @@ class Reusable
      */
     public function request(string $url, array $data): array
     {
-        $baseUrl = 'https://api.kavenegar.com/v1/' . $url ;
+        $baseUrl = 'https://api.kavenegar.com/v1/'.$url;
         try {
             $client = new Client();
             $request = $client->post($baseUrl, ['form_params' => $data]);
@@ -29,6 +29,7 @@ class Reusable
                 'providerResult' => $e->getMessage(),
             ];
         }
+
         return $response;
     }
 }
