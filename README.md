@@ -1,7 +1,7 @@
 # Kave Negar Sms Provider
 
 [![GitHub Workflow Status](https://github.com/meysamzandy/KaveNegarSmsProvider/workflows/Run%20tests/badge.svg)](https://github.com/meysamzandy/KaveNegarSmsProvider/actions)
-[![styleci](https://styleci.io/repos/281369503/shield)](https://styleci.io/repos/281369503)
+[![StyleCI](https://github.styleci.io/repos/281572936/shield?branch=master)](https://github.styleci.io/repos/281572936?branch=master)
 [![Code Intelligence Status](https://scrutinizer-ci.com/g/meysamzandy/KaveNegarSmsProvider/badges/code-intelligence.svg?b=master)](https://scrutinizer-ci.com/code-intelligence)
 [![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/meysamzandy/KaveNegarSmsProvider/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/meysamzandy/KaveNegarSmsProvider/?branch=master)
 [![Build Status](https://scrutinizer-ci.com/g/meysamzandy/KaveNegarSmsProvider/badges/build.png?b=master)](https://scrutinizer-ci.com/g/meysamzandy/KaveNegarSmsProvider/build-status/master)
