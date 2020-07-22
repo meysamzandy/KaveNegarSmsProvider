@@ -1,0 +1,57 @@
+{
+  "name": "meysam-znd/kave-negar-sms-provider",
+  "description": "kavenegar sms provider",
+  "license": "MIT",
+  "keywords": [
+    "kave",
+    "negar",
+    "kavenegar",
+    "sms",
+    "provider"
+  ],
+  "type": "library",
+  "authors": [
+    {
+      "name": "meysam zandy",
+      "email": "zandy.meysam@gmail.com"
+    }
+  ],
+  "require": {
+    "php": ">=7.2",
+    "laravel/framework": "7.20.*",
+    "illuminate/support": "^6.0|^7.0",
+    "guzzlehttp/guzzle": "7.0.*"
+  },
+  "require-dev": {
+    "orchestra/testbench": "^4.0|^5.0",
+    "phpunit/phpunit": "^8.4|^9.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "MeysamZnd\\KaveNegarSmsProvider\\": "src"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "MeysamZnd\\KaveNegarSmsProvider\\Tests\\": "tests"
+    },
+    "classmap": [
+      "tests"
+    ]
+  },
+  "scripts": {
+    "phpunit": "phpunit"
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "MeysamZnd\\KaveNegarSmsProvider\\ServiceProvider"
+      ]
+    }
+  },
+  "config": {
+    "preferred-install": "dist",
+    "sort-packages": true,
+    "optimize-autoloader": true
+  }
+}
